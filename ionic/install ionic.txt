@@ -1,0 +1,41 @@
+npm install -g cordova ionic
+
+ionic start myApp blank
+
+cd myApp
+ionic platform add android
+
+
+// Download and Install Java
+// http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+// add /bin to PATH
+
+// Download and paste Apache Ant
+// http://ant.apache.org/
+// add /bin to PATH
+
+
+// Download and install  Android SDK
+// http://developer.android.com/sdk/index.html
+
+
+//Add Android to PATH 
+//adt-bundle/sdk/platform-tools/ 
+//adt-bundle/sdk/tools/ 
+//cmd.exe  run android
+
+
+
+
+ionic build android
+-- ionic emulate ios
+
+
+
+
+
+notas para instalr
+http://learn.ionicframework.com/videos/windows-android/
+
+nota para publicar
+http://ionicframework.com/docs/guide/publishing.html

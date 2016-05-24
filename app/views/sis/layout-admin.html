@@ -1,0 +1,19 @@
+<jgc-layout jgt-component-id="layout_principal" id="pantalla-principal" >
+    <jgc-layout-west>
+        <jgc-tool-bar class="primary">
+            <div class="pull-left">
+                <div class="btn-tool-bar visible-xs-block" >
+                    <button class="btn btn-default" ng-click="changePrincipalWest()"><i class="material-icons">menu</i></button>
+                </div>
+                <div class="title-tool-bar">GETMIN</div>
+            </div>
+        </jgc-tool-bar>
+        <jgc-menu items="itemenu" ></jgc-menu>
+    </jgc-layout-west>
+    <jgc-layout-center class="jgt-fill">
+        <div class="content container-fluid jgt-fill" style="padding-top:0;">
+            <div ui-view class="jgt-fill"></div>
+        </div>
+    </jgc-layout-center>
+</jgc-layout>
+

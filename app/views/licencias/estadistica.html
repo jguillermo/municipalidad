@@ -1,0 +1,24 @@
+<jgc-tool-bar class="primary">
+	<div class="pull-left">
+		<div class="btn-tool-bar">
+			<a href="" data-ui-sref="sis.dashboard" class="btn btn-default"><i class="material-icons">&#xE88A;</i></a> 
+		</div>
+		<div class="title-tool-bar">Licencias</div>
+	</div>
+</jgc-tool-bar>
+<jgc-card>
+	<jgc-menu-horizontal>
+		<div class="jgc-mh-item ">
+			<a href="" data-ui-sref="sis.licencias-mapa">Mapa</a>
+		</div>
+		<div class="jgc-mh-item ">
+			<a href="" data-ui-sref="sis.licencias">Buscar</a>
+		</div>
+		
+		<div class="jgc-mh-item active">Estadística</div>
+	</jgc-menu-horizontal>
+</jgc-card>
+
+<jgc-card>
+	<jgc-google-chart type="PieChart" options="estadistica.options" data="estadistica.data" responsive ></jgc-google-chart>
+</jgc-card>

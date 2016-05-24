@@ -1,0 +1,9 @@
+Datos estadisticos		
+Numero de licencias			197
+Licencias nuevas			49
+Licencias por ampliacion		68
+Licencias por Remdelacion		73
+Licencia para demolicion total		41
+Licencia para demolicion parcial	23
+Licencia para obra menor		1
+Licencias para cercos			3
